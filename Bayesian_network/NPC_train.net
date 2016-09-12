@@ -1,0 +1,487 @@
+net
+{
+    node_size = (80 40);
+    HR_Has_Constraints = "yes";
+    HR_DBN_Num_Slices = "5";
+    HR_Desc = "";
+    HR_OOBN_CheckConsistency = "1";
+    HR_OOBN_FitExpand = "1";
+    HR_Zoom_ZoomFactor = "100";
+    HR_Groups_GroupColors = "";
+    HR_Groups_GroupNames = "";
+    HR_Groups_UserGroupsNo = "0";
+    HR_Utility_Link = "63";
+    HR_Probabilistic_Link = "63";
+    HR_Functional_Link = "63";
+    HR_Binding_Link = "63";
+    HR_Information_Arc = "63";
+    HR_Color_Interface = "21";
+    HR_Color_Instance = "0";
+    HR_Color_DiscreteFunction = "5";
+    HR_Color_Function = "4";
+    HR_Color_Utility = "36";
+    HR_Color_Decision = "17";
+    HR_Color_ContinuousChance = "48";
+    HR_Color_DiscreteChance = "16";
+    HR_Monitor_InitSD = "2";
+    HR_Monitor_Utility_Arrange = "0";
+    HR_Monitor_Mean_Variance = "1";
+    HR_Monitor_Chance_Utility = "1";
+    HR_Monitor_InitStates = "5";
+    HR_Monitor_OpenGraph = "0";
+    HR_Monitor_GraphPrecision = "100";
+    HR_Monitor_AutoUpdGraph = "0";
+    HR_Compile_MaxMinimalSeparators = "100000";
+    HR_Compile_ApproxEpsilon = "1.0E-5";
+    HR_Compile_Approximate = "0";
+    HR_Compile_SaveToMemory = "0";
+    HR_Compile_Compress = "0";
+    HR_Compile_TriangMethod = "0";
+    HR_Propagate_AutoNormal = "1";
+    HR_Propagate_AutoSum = "1";
+    HR_Propagate_Auto = "1";
+    HR_Font_Italic = "0";
+    HR_Font_Weight = "400";
+    HR_Font_Size = "-12";
+    HR_Font_Name = "javax.swing.plaf.FontUIResource[family=Cantarell,name=Cantarell,style=plain,size=15]";
+    HR_Grid_GridShow = "0";
+    HR_Grid_GridSnap = "0";
+    HR_Grid_Y = "40";
+    HR_Grid_X = "40";
+}
+
+node x22
+{
+    position = (50 450);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x13:0][x14:0][y:0][x11:0][x12:0][x17:0][x18:0][x15:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x20:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x13:0][x14:0][y:0][x11:0][x12:0][x17:0][x18:0][x15:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x20:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+}
+
+node x13
+{
+    position = (210 430);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x21:0][y:0][x14:0][x11:0][x12:0][x17:0][x18:0][x15:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x20:0][x02:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x21:0][y:0][x14:0][x11:0][x12:0][x17:0][x18:0][x15:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x20:0][x02:0][x19:0][x09:0][x08:0]";
+}
+
+node x14
+{
+    position = (370 450);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x20:0][y:0][x11:0][x12:0][x17:0][x18:0][x15:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x20:0][y:0][x11:0][x12:0][x17:0][x18:0][x15:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+}
+
+node y
+{
+    position = (530 430);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x13:0][x21:0][x11:0][x12:0][x17:0][x18:0][x15:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x20:0][x02:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x13:0][x21:0][x11:0][x12:0][x17:0][x18:0][x15:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x20:0][x02:0][x19:0][x09:0][x08:0]";
+}
+
+node x11
+{
+    position = (90 370);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x02:0][x07:0][x12:0][x17:0][x18:0][x15:0][x16:0][x05:0][x04:0][x06:0][x01:0][x10:0][x03:0][x20:0][x21:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x02:0][x07:0][x12:0][x17:0][x18:0][x15:0][x16:0][x05:0][x04:0][x06:0][x01:0][x10:0][x03:0][x20:0][x21:0][x19:0][x09:0][x08:0]";
+}
+
+node x12
+{
+    position = (250 350);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x02:0][x21:0][x17:0][x18:0][x15:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x20:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x02:0][x21:0][x17:0][x18:0][x15:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x20:0][x19:0][x09:0][x08:0]";
+}
+
+node x17
+{
+    position = (410 370);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x07:0][x18:0][x15:0][x16:0][x05:0][x04:0][x06:0][x01:0][x10:0][x03:0][x20:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x07:0][x18:0][x15:0][x16:0][x05:0][x04:0][x06:0][x01:0][x10:0][x03:0][x20:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+}
+
+node x18
+{
+    position = (570 350);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x15:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x20:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x15:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x20:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+}
+
+node x15
+{
+    position = (50 290);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x20:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x20:0][x16:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+}
+
+node x16
+{
+    position = (210 270);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x02:0][x15:0][x20:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x21:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x02:0][x15:0][x20:0][x05:0][x04:0][x07:0][x06:0][x01:0][x10:0][x03:0][x21:0][x19:0][x09:0][x08:0]";
+}
+
+node x05
+{
+    position = (370 290);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x20:0][x10:0][x04:0][x07:0][x06:0][x01:0][x03:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x20:0][x10:0][x04:0][x07:0][x06:0][x01:0][x03:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+}
+
+node x04
+{
+    position = (530 270);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x15:0][x20:0][x07:0][x06:0][x01:0][x10:0][x03:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x15:0][x20:0][x07:0][x06:0][x01:0][x10:0][x03:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+}
+
+node x07
+{
+    position = (90 210);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x12:0][x21:0][x02:0][x06:0][x01:0][x10:0][x03:0][x20:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x12:0][x21:0][x02:0][x06:0][x01:0][x10:0][x03:0][x20:0][x19:0][x09:0][x08:0]";
+}
+
+node x06
+{
+    position = (250 190);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x11:0][x02:0][x01:0][x10:0][x03:0][x20:0][x21:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x11:0][x02:0][x01:0][x10:0][x03:0][x20:0][x21:0][x19:0][x09:0][x08:0]";
+}
+
+node x01
+{
+    position = (410 210);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x05:0][x20:0][x10:0][x03:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x05:0][x20:0][x10:0][x03:0][x02:0][x21:0][x19:0][x09:0][x08:0]";
+}
+
+node x10
+{
+    position = (570 190);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x05:0][x01:0][x20:0][x19:0][x03:0][x02:0][x21:0][x09:0][x08:0]";
+    HR_LinkMode = "[x05:0][x01:0][x20:0][x19:0][x03:0][x02:0][x21:0][x09:0][x08:0]";
+}
+
+node x03
+{
+    position = (50 130);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x21:0][x20:0][x02:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x21:0][x20:0][x02:0][x19:0][x09:0][x08:0]";
+}
+
+node x20
+{
+    position = (210 110);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x09:0][x19:0][x02:0][x21:0][x08:0]";
+    HR_LinkMode = "[x09:0][x19:0][x02:0][x21:0][x08:0]";
+}
+
+node x02
+{
+    position = (370 130);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x21:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x21:0][x19:0][x09:0][x08:0]";
+}
+
+node x21
+{
+    position = (530 110);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x22:0][x03:0][x19:0][x09:0][x08:0]";
+    HR_LinkMode = "[x22:0][x03:0][x19:0][x09:0][x08:0]";
+}
+
+node x19
+{
+    position = (90 50);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x10:0][x09:0][x08:0]";
+    HR_LinkMode = "[x10:0][x09:0][x08:0]";
+}
+
+node x09
+{
+    position = (250 30);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x14:0][x04:0][x08:0]";
+    HR_LinkMode = "[x14:0][x04:0][x08:0]";
+}
+
+node x08
+{
+    position = (410 50);
+    states = ("" "");
+    subtype = number;
+    state_values = (0 1);
+    HR_LinkGroup = "[x13:0][x03:0]";
+    HR_LinkMode = "[x13:0][x03:0]";
+}
+
+potential (x22 | x21)
+{
+    data
+     = (( 0.753623 0.246377 )	%  x21=0
+	( 0.290323 0.709677 ));	%  x21=1
+    experience
+     = ( 69	%  x21=0
+	 31 );	%  x21=1
+}
+
+potential (x13 | x08)
+{
+    data
+     = (( 0.762712 0.237288 )	%  x08=0
+	( 0.170732 0.829268 ));	%  x08=1
+    experience
+     = ( 59	%  x08=0
+	 41 );	%  x08=1
+}
+
+potential (x14 | x09)
+{
+    data
+     = (( 0.882353 0.117647 )	%  x09=0
+	( 0.1875 0.8125 ));	%  x09=1
+    experience
+     = ( 68	%  x09=0
+	 32 );	%  x09=1
+}
+
+potential (y | x13)
+{
+    data
+     = (( 0.461538 0.538462 )	%  x13=0
+	( 0.0625 0.9375 ));	%  x13=1
+    experience
+     = ( 52	%  x13=0
+	 48 );	%  x13=1
+}
+
+potential (x11 | x06)
+{
+    data
+     = (( 0.9375 0.0625 )	%  x06=0
+	( 0.15 0.85 ));	%  x06=1
+    experience
+     = ( 80	%  x06=0
+	 20 );	%  x06=1
+}
+
+potential (x12 | x07)
+{
+    data
+     = (( 0.881579 0.118421 )	%  x07=0
+	( 0.208333 0.791667 ));	%  x07=1
+    experience
+     = ( 76	%  x07=0
+	 24 );	%  x07=1
+}
+
+potential (x17)
+{
+    data = ( 0.86 0.14 );
+    experience = 100;
+}
+
+potential (x18)
+{
+    data = ( 0.87 0.13 );
+    experience = 100;
+}
+
+potential (x15 | x04)
+{
+    data
+     = (( 0.929577 0.0704225 )	%  x04=0
+	( 0.482759 0.517241 ));	%  x04=1
+    experience
+     = ( 71	%  x04=0
+	 29 );	%  x04=1
+}
+
+potential (x16 | x15)
+{
+    data
+     = (( 0.7875 0.2125 )	%  x15=0
+	( 0.3 0.7 ));	%  x15=1
+    experience
+     = ( 80	%  x15=0
+	 20 );	%  x15=1
+}
+
+potential (x05 | x01)
+{
+    data
+     = (( 0.949153 0.0508475 )	%  x01=0
+	( 0.121951 0.878049 ));	%  x01=1
+    experience
+     = ( 59	%  x01=0
+	 41 );	%  x01=1
+}
+
+potential (x04 | x09)
+{
+    data
+     = (( 0.897059 0.102941 )	%  x09=0
+	( 0.3125 0.6875 ));	%  x09=1
+    experience
+     = ( 68	%  x09=0
+	 32 );	%  x09=1
+}
+
+potential (x07)
+{
+    data = ( 0.76 0.24 );
+    experience = 100;
+}
+
+potential (x06)
+{
+    data = ( 0.8 0.2 );
+    experience = 100;
+}
+
+potential (x01)
+{
+    data = ( 0.59 0.41 );
+    experience = 100;
+}
+
+potential (x10 | x01 x05)
+{
+    data
+     = ((( 0.982143 0.0178571 )	%  x01=0  x05=0
+	 ( 0 1 ))	%  x01=0  x05=1
+	(( 0.4 0.6 )	%  x01=1  x05=0
+	 ( 0.194444 0.805556 )));	%  x01=1  x05=1
+    experience
+     = (( 56	%  x01=0  x05=0
+	  3 )	%  x01=0  x05=1
+	( 5	%  x01=1  x05=0
+	  36 ));	%  x01=1  x05=1
+}
+
+potential (x03 | x08)
+{
+    data
+     = (( 0.881356 0.118644 )	%  x08=0
+	( 0.292683 0.707317 ));	%  x08=1
+    experience
+     = ( 59	%  x08=0
+	 41 );	%  x08=1
+}
+
+potential (x20)
+{
+    data = ( 0.66 0.34 );
+    experience = 100;
+}
+
+potential (x02 | x16 x12)
+{
+    data
+     = ((( 0.942308 0.0576923 )	%  x16=0  x12=0
+	 ( 0.647059 0.352941 ))	%  x16=0  x12=1
+	(( 0.8 0.2 )	%  x16=1  x12=0
+	 ( 0.0909091 0.909091 )));	%  x16=1  x12=1
+    experience
+     = (( 52	%  x16=0  x12=0
+	  17 )	%  x16=0  x12=1
+	( 20	%  x16=1  x12=0
+	  11 ));	%  x16=1  x12=1
+}
+
+potential (x21 | x03)
+{
+    data
+     = (( 0.875 0.125 )	%  x03=0
+	( 0.361111 0.638889 ));	%  x03=1
+    experience
+     = ( 64	%  x03=0
+	 36 );	%  x03=1
+}
+
+potential (x19 | x10)
+{
+    data
+     = (( 0.9375 0.0625 )	%  x10=0
+	( 0.527778 0.472222 ));	%  x10=1
+    experience
+     = ( 64	%  x10=0
+	 36 );	%  x10=1
+}
+
+potential (x09)
+{
+    data = ( 0.68 0.32 );
+    experience = 100;
+}
+
+potential (x08)
+{
+    data = ( 0.59 0.41 );
+    experience = 100;
+}
